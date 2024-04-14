@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-7xl px-8;
+  }
+
+  @media (min-width: 1024px) {
+    .hero-h {
+      min-height: 32rem;
+    }
+  }
+
+  section {
+    scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+  }
+}
