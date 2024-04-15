@@ -41,7 +41,7 @@ const Navbar = () => {
               key={id}
               href={href}
               onClick={(e) => scrollToSection(text, e)}
-              className="capitalize text-2xl text-white tracking-wide hover:text-sky-400 duration-300"
+              className="capitalize text-lg text-white tracking-wide hover:text-sky-400 duration-300 md:text-2xl"
             >
               {text}
             </a>
